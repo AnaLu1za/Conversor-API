@@ -102,4 +102,6 @@ A aplicação é responsiva, com ajustes automáticos de layout para diferentes 
 | [<img loading="lazy" src="https://avatars.githubusercontent.com/u/140712280?v=4" width=115><br><sub>Fellipe Zanin</sub>](https://github.com/Fell1pe) |  [<img loading="lazy" src="https://avatars.githubusercontent.com/u/140712281?v=4" width=115><br><sub>Ana Luiza</sub>](https://github.com/AnaLu1za) |
 | :---: | :---: | 
 
-[<code><img height="32" src="https://t.ctcdn.com.br/IwwDh-BajTE4ZwE4zuIcvz9Q2ZY=/i490027.jpeg" alt="Linkedin"/></code>](https://www.linkedin.com/posts/fellipe-zanin-1b1a7728b_github-fell1peconversor-moedas-activity-7254660238400770048-H5PA?utm_source=share&utm_medium=member_desktop)
+[<code><img height="32" src="https://t.ctcdn.com.br/IwwDh-BajTE4ZwE4zuIcvz9Q2ZY=/i490027.jpeg" alt="Linkedin"/></code>](https://www.linkedin.com/posts/ana-santos-a5032a2a2_github-analu1zaconversor-api-activity-7255176434715873280-fUaI?utm_source=share&utm_medium=member_ios)
+
+
