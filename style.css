@@ -1,0 +1,111 @@
+/* Aplicando o box-sizing para incluir padding e bordas nas dimensões totais dos elementos */
+* {
+    box-sizing: border-box;
+}
+
+/* Estilizando o corpo da página */
+body {
+    font-family: 'Arial', sans-serif; /* Definindo a fonte para Arial */
+    background-color: #facf43; /* Cor de fundo amarela clara */
+    margin: 0; /* Removendo as margens padrão do body */
+    padding: 0; /* Removendo o padding padrão do body */
+    color: #ffffff; /* Cor do texto em branco */
+}
+
+/* Estilizando o contêiner principal */
+.container {
+    max-width: 400px; /* Largura máxima do contêiner */
+    margin: 50px auto; /* Centralizando o contêiner na página com espaçamento superior/inferior */
+    padding: 20px; /* Espaçamento interno ao redor do conteúdo */
+    border-radius: 10px; /* Bordas arredondadas */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); /* Sombra em torno do contêiner */
+    backdrop-filter: blur(10px); /* Efeito de desfoque no fundo */
+    background-color: #e6e47469; /* Cor de fundo semitransparente */
+}
+
+/* Estilizando o título (h1) */
+h1 {
+    text-align: center; /* Centralizando o texto */
+    margin-bottom: 20px; /* Espaço inferior entre o título e o próximo elemento */
+    font-size: 2.5em; /* Aumentando o tamanho da fonte */
+}
+
+/* Estilizando cada grupo de entrada de dados */
+.input-group {
+    margin-bottom: 15px; /* Espaçamento inferior entre os grupos */
+}
+
+/* Estilizando os rótulos (label) */
+label {
+    display: block; /* Forçando o rótulo a ocupar uma linha inteira */
+    margin-bottom: 5px; /* Espaço abaixo do rótulo */
+    font-weight: bold; /* Texto em negrito */
+}
+
+/* Estilizando os campos de entrada e seleção */
+input, select {
+    width: 100%; /* Largura total do contêiner pai */
+    padding: 12px; /* Espaçamento interno para aumentar a área clicável */
+    border: none; /* Removendo bordas padrão */
+    border-radius: 5px; /* Bordas arredondadas */
+    font-size: 1em; /* Tamanho da fonte */
+    transition: background 0.3s, transform 0.2s; /* Transições suaves para alterações de cor e transformação */
+}
+
+/* Efeito visual quando o campo de entrada ou seleção é focado */
+input:focus, select:focus {
+    background: rgba(255, 255, 255, 0.2); /* Cor de fundo levemente mais clara ao focar */
+    transform: scale(1.02); /* Leve aumento no tamanho ao focar */
+    outline: none; /* Removendo o contorno padrão */
+}
+
+/* Estilizando os botões */
+button {
+    width: 48%; /* Largura de 48% para exibir dois botões lado a lado */
+    padding: 12px; /* Espaçamento interno */
+    margin-top: 10px; /* Espaçamento superior */
+    border: none; /* Removendo bordas padrão */
+    border-radius: 5px; /* Bordas arredondadas */
+    cursor: pointer; /* Alterando o cursor para indicar que é clicável */
+    font-size: 1em; /* Tamanho da fonte */
+    transition: background 0.3s, transform 0.2s; /* Transições suaves para alterações de cor e transformação */
+}
+
+/* Estilizando o botão de submissão (converter) */
+button[type="submit"] {
+    background-color: #28a745; /* Cor de fundo verde */
+    color: white; /* Cor do texto branca */
+}
+
+/* Estilizando o botão de reset */
+button[type="button"] {
+    background-color: #dc3545; /* Cor de fundo vermelha */
+    color: white; /* Cor do texto branca */
+}
+
+/* Efeito hover para os botões */
+button:hover {
+    transform: scale(1.05); /* Leve aumento no tamanho ao passar o mouse */
+}
+
+/* Estilizando a área de resultado da conversão */
+.result {
+    margin-top: 20px; /* Espaçamento superior */
+    padding: 15px; /* Espaçamento interno */
+    background-color: rgba(255, 255, 255, 0.1); /* Fundo semitransparente */
+    border-radius: 5px; /* Bordas arredondadas */
+    text-align: center; /* Centralizando o texto */
+    font-size: 1.5em; /* Aumentando o tamanho da fonte */
+    font-weight: bold; /* Texto em negrito */
+    animation: fadeIn 0.5s ease; /* Animação de fade in ao exibir o resultado */
+}
+
+/* Definindo a animação fadeIn */
+@keyframes fadeIn {
+    from {
+        opacity: 0; /* Começa com opacidade 0 (invisível) */
+    }
+    to {
+        opacity: 1; /* Termina com opacidade 1 (totalmente visível) */
+    }
+}
