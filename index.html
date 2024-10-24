@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <!-- Definindo o conjunto de caracteres para UTF-8, para suportar acentuação e caracteres especiais -->
+    <meta charset="UTF-8">
+    <!-- Definindo a viewport para garantir que o layout seja exibido corretamente em dispositivos móveis -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Título da página que será exibido na aba do navegador -->
+    <title>Conversão de Moedas</title>
+    <!-- Link para o arquivo de estilo CSS externo -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Div principal que contém todo o conteúdo da página -->
+    <div class="container">
+        <!-- Título principal da página -->
+        <h1>Conversor de Moedas</h1>
+
+        <!-- Formulário para a conversão de moedas -->
+        <form id="currency-form">
+            <!-- Grupo de entrada para o valor que o usuário deseja converter -->
+            <div class="input-group">
+                <label for="amount">Valor:</label>
+                <!-- Campo de entrada numérica para o valor -->
+                <input type="number" id="amount" required>
+            </div>
+
+            <!-- Grupo de entrada para a moeda de origem (moeda que será convertida) -->
+            <div class="input-group">
+                <label for="from-currency">Moeda de Origem:</label>
+                <!-- Menu dropdown com opções de diferentes moedas -->
+                <select id="from-currency">
+                    <option value="USD">Dólar (USD)</option>
+                    <option value="EUR">Euro (EUR)</option>
+                    <option value="BRL">Real (BRL)</option>
+                    <option value="GBP">Libra Esterlina (GBP)</option>
+                    <option value="JPY">Iene (JPY)</option>
+                    <option value="CAD">Dólar Canadense (CAD)</option>
+                    <option value="AUD">Dólar Australiano (AUD)</option>
+                </select>
+            </div>
+
+            <!-- Grupo de entrada para a moeda de destino (moeda para a qual será feita a conversão) -->
+            <div class="input-group">
+                <label for="to-currency">Moeda de Destino:</label>
+                <!-- Menu dropdown com opções de diferentes moedas -->
+                <select id="to-currency">
+                    <option value="USD">Dólar (USD)</option>
+                    <option value="EUR">Euro (EUR)</option>
+                    <option value="BRL">Real (BRL)</option>
+                    <option value="GBP">Libra Esterlina (GBP)</option>
+                    <option value="JPY">Iene (JPY)</option>
+                    <option value="CAD">Dólar Canadense (CAD)</option>
+                    <option value="AUD">Dólar Australiano (AUD)</option>
+                </select>
+            </div>
+
+            <!-- Botão para enviar o formulário e realizar a conversão -->
+            <button type="submit">Converter</button>
+            <!-- Botão para resetar os campos do formulário -->
+            <button type="button" id="reset">Resetar</button>
+        </form>
+
+        <!-- Div que exibirá o resultado da conversão -->
+        <div id="result" class="result"></div>
+    </div>
+
+    <!-- Link para o arquivo de script JavaScript externo -->
+    <script src="script.js"></script>
+</body>
+</html>
